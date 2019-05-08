@@ -1,0 +1,27 @@
+/**********************************************************
+* File        : Reflect.txt
+* Name        : Abiodun Oke
+* Workshop    : Home7
+* Date        : 2018-11-12
+**********************************************************/
+
+es the SuperHero class need to know about the existence of the Hero class? (Hint: search for “Hero” in SuperHero.cpp)
+Yes, SuperHero must know about the Hero class because Hero is used in the SuperHero class which is the derive class
+
+3.	The program prints out “Ancient Battle!” when two Heroes fight. It prints out “Super Fight!” when two SuperHeroes fight. When you made a Hero fight a SuperHero, what did it print out?
+Its print out “Ancient Battle!” because SuperHero doesn’t use its Super power when fighting with an Hero
+4.	True or False: is the following definition for main valid? Explain.
+int main() {
+  Hero("Achilles", 20, 6) * Hero("Hector", 30, 5);
+}
+True
+5.	True or False: is the following definition for main valid? Explain.
+int main() {
+ (Hero("Achilles", 20, 6) * Hero("Hector", 30, 5)) 
+                          *
+ (Hero("Atalanta", 10, 3) * Hero("Hippolyta", 10, 2));
+}
+False
+
+	Quiz 6 Reflection
+5. A) B(); C(); A();

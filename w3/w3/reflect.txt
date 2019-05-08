@@ -1,0 +1,16 @@
+/*Name        : Abiodun Oke
+* Date        : 2018/10/01
+**********************************************************/
+
+
+1)	How many elements are there in each C-style character string that stores a family or given name for the account? Why?
+The size is max_name_length + 1 is 41 I added 1 because of the null terminator for the character string.
+2)	Your class declares two member functions named set(...).  In C, this would generate an error.  Name the feature of C++ that allows this.
+Its called overload which allows us to use same function name but different parameter list.
+3)	What have you learned in completing this workshop?
+I have learn how to overload function, define a class and privatize data within a class type, using standard library facilities to format data inserted into the output stream.
+
+
+Quiz 3 Reflection
+5. 1234567890
+   2.23******

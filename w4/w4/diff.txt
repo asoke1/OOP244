@@ -1,0 +1,10 @@
+
+In line number 16 of your output:
+The output should be:
+Passenger 11: John Smith - Toronto on 2018/10/01
+But your output is: 
+Passenger 11: John Smith - Toronto on 2018/10/1
+                                              ^
+----------------------------------------------|
+Professor's character ASCII code: hex(30), dec(48)
+un-matched character ASCII code: hex(31), dec(49)

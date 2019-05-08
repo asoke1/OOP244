@@ -1,0 +1,10 @@
+
+In line number 118 of your output:
+The output should be:
+ Quantity on Hand: 1 kg
+But your output is: 
+ Quantity on hand: 1 kg
+             ^
+-------------|
+Professor's character ASCII code: hex(48), dec(72)
+un-matched character ASCII code: hex(68), dec(104)

@@ -1,0 +1,10 @@
+
+In line number 27 of your output:
+The output should be:
+  s: 1234   |Blanket             |  13.94|  12|pair      |  23|
+But your output is: 
+  s: 1234   |Blanket             |  13.94|  12|pair      |  12|
+                                                            ^
+------------------------------------------------------------|
+Professor's character ASCII code: hex(32), dec(50)
+un-matched character ASCII code: hex(31), dec(49)

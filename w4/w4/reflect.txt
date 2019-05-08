@@ -1,0 +1,18 @@
+//add file header comments here
+/**********************************************************
+* Name        : Abiodun Oke
+* Date        : 2018/10/09
+**********************************************************/o
+
+1)	What is a safe empty state? Could you define a safe empty state that differs from the empty state that you defined?
+Safe empty state is initialize an object to a value that identify the object as an empty state 
+2)	Identify the parts of your source code where to minimized code duplica-tion.
+I created 4 private member functions setEmpty() to set object to safe empty state, copyString() to copy string name and destination where needed, vali-date() to validate dates, validatString() to validate string names.
+3)	The canTravelWith(...) member function accesses the private data of the object referenced in its parameter. Explain why C++ allows this access.
+It can because is a member function of the class. The referenced in this function object is an instance of the same class
+4)	What statement did you add to ensure that the strncpy(...) function exe-cutes correctly?
+5)	Explain what you have learned in this workshop.
+I Have learn how to minimize code, define a constructor that initializes an object's data at creation time and also define a default constructor 
+
+QUIZ 4 REFLECTION:
+5. Main Started 

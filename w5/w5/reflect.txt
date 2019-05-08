@@ -1,0 +1,18 @@
+/**********************************************************
+* Name        : Abiodun Oke
+* Date        : 2018/10/13
+**********************************************************/
+
+1. The perator+ returns a Fraction object. Explain why this operator should not return a reference to a Fraction object.
+We do not want to return reference to an object because we only need to return the value not the alias to the object.
+2.	List the temporary objects in the w5_at_home.cpp main module.
+3.	Line 52. (a + b).display(); line 56. (b + d).display(); line 60. (b += d).display();
+4.	List the simplifications that you made to your class to minimize code dupli-cation.  Answer: setEmpty() to initialize the object to value that represent a safe empty state.
+5.	Explain what you have learned in this workshop.
+I have learn how to overload operator as a member function of a class, ac-cess the current object from within a member function and identify a tem-porary object.
+
+
+
+QUIZ 5 REFLECTION
+2. one
+5. 6

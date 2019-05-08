@@ -1,0 +1,10 @@
+
+In line number 31 of your output:
+The output should be:
+Year (2014) balance owing: 34.56
+But your output is: 
+Year (2014) balance owing: 34
+                             ^
+-----------------------------|
+Professor's character ASCII code: hex(2e), dec(46)
+un-matched character ASCII code: hex(d), dec(13)

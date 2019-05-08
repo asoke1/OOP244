@@ -1,0 +1,31 @@
+// Final Project:  Reflect.txt
+// Workshop    : at home 
+// Version 1.0
+// Date        : 2018-11-19
+// Author      : Abiodun Stephen Oke
+// Student ID  : 117180166
+// Section     : SGG
+// Seneca email: asoke@myseneca.ca
+//Description
+// Revision History
+// -----------------------------------------------------------
+// Name               Date                 Reason
+/////////////////////////////////////////////////////////////////
+
+
+
+1)	What is the difference between an abstract base class and a concrete class?
+Abstract contains only virtual functions which have no implementations, while concrete class always have full implementation of its behaviors, which have its member variable and defined member function.
+2)	Identify the functions that shadow functions of the same name in your solution?
+void display(std::ostream&) const;
+3)	Explain what have you learned in this workshop.
+I have learn how to use virtual and pure virtual functions, how to code abstract base class and understand the different abstract base class and concrete class 
+
+
+	Quiz 7 Reflection
+1, When do we call a class as abstract class?  
+When a base class have one or more pure virtual function we call it abstract class
+
+3)	Write True / False for the followings   
+          
+a)	Polymorphic object can not change its dynamic type throughout its lifetime. answer: false

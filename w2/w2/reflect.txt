@@ -1,0 +1,25 @@
+Abiodun Oke 
+
+
+Why do you need to allocate new dynamic memory when you increase the size of an existing array of dynamically allocated memory?
+We allocate new dynamic memory because an array uses bytes tore data, we increase the size of an array and need to allocate memory to store the increments.
+
+2)	The Kingdom structure stores the name of the kingdom in an array of char-acters. At the end of the program, we do not use the delete operator to deallocate the memory occupied by the name itself. Why don’t we need to use the delete e operator on this array itself? 
+W dont need to delete because we do not allocate dynamic for it.
+
+3)	There are two display(...) function definitions. How does the compiler know which definition to call from your main function? 
+
+The compiler identifies overloading functions by their parameter list and generate a new name for each function
+
+4)	Describe what have you have learned in this workshop.
+I have learn how to allocate and deallocate dynamic memory for an array of elements, learn how to overload functions.
+
+
+QUIZ 2 REFLECTION
+
+1. B compiler
+2. A 
+3. B 
+
+5. error
+

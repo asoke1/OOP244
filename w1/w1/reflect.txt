@@ -1,0 +1,32 @@
+/***********************************************************************
+// STUDENT: ABIODUN OKE
+//OOP244 Workshop 1: Compiling modular source code
+// File	w1_in_lab.cpp
+// Version 1.0
+// Date	2016/01/10
+// Author	Fardad Soleimanloo
+// Description
+// This provides some source code in a single file to break
+// into modules and compile together
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+// Fardad
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+1.	What is a namespace? Explain its purpose. 
+Namespace is a scope for entities that is encloses. Its used to avoid identifier clashes across different namespace.
+2.	Why are header files needed? Explain.
+Header file contains functions prototypes and class definitions, while the implementation file contains the logics and function definitions. The header file is needed to separate the implementation from the interface
+3.	In the instructions above, you were directed to compile only .cpp files but not the .h files. Explain why you don’t compile header files.
+Because the compile can only compile the .cpp file which contain the im-plementations while header file is include for reference. Example is #include “tools.h”
+4.	Explain why you should never include .cpp files in another file.
+Because implementation file does not include another implementation file but can include many header file when is needed.
+5.	Explain in your own words what have you learned on this workshop.
+I have learnt how to set up the program into modules, how to add compila-tion safeguards to modules and how to use namespaces.
+
+QUIZ 1 REFLECTION
+2. Pointer
+5. computer.h computer.cpp

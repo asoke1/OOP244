@@ -1,0 +1,18 @@
+/**********************************************************
+* Name        : Abiodun Oke
+* Workshop	  : home
+* Date        : 2018-11-05
+**********************************************************/
+
+         REFLECTION
+
+1)	Why does the copy assignment operator check for self-assignment before doing anything else?
+The copy assignment delete data from the current object, if object a = a will delete the data from the object we copy from
+2)	List examples of how you avoided code duplication.
+I created this functions to perform a specific task. bool isValidPhone(const long long phone) const; and void init(const Contact& obj);
+3)	List what you have learned in completing this workshop.
+I have learn how to define copy constructor, copy assignment, overload operator and to create a class that use dynamic memory.
+
+
+	QUIZ REFLECTION
+No quize

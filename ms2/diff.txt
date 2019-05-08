@@ -1,0 +1,10 @@
+
+In line number 4 of your output:
+The output should be:
+f: isClear(): Passed!
+But your output is: 
+f: 
+   ^
+---|
+Professor's character ASCII code: hex(69), dec(105)
+un-matched character ASCII code: hex(0), dec(0)
